@@ -1,7 +1,7 @@
 const editRecoverPassCodeService = async (recoverPassCode, newPass) => {
     try {
         const res = await fetch(
-            `http://eva00.3utilities.com/api/users/password/recover`,
+            `https://backmundovigilante.3.us-1.fl0.io/users/password/recover`,
             {
                 method: 'put',
                 headers: {

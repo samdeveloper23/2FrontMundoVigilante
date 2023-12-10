@@ -14,7 +14,7 @@ const useSingleUser = (userId) => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `http://eva00.3utilities.com/api/users/${userId}`,
+                    `https://backmundovigilante.3.us-1.fl0.io/users/${userId}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

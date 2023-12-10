@@ -8,7 +8,7 @@ const PublicationBody = ({ title, photoName, videoName, description }) => {
         <div className={`photo-info ${isDarkMode ? 'dark' : 'light'}`}>
             {photoName && (
                 <img
-                    src={`http://eva00.3utilities.com/api/${photoName}`}
+                    src={`https://backmundovigilante.3.us-1.fl0.io/${photoName}`}
                     alt='Imagen de la publicación'
                 />
             )}
@@ -21,7 +21,7 @@ const PublicationBody = ({ title, photoName, videoName, description }) => {
                     muted
                 >
                     <source
-                        src={`http://eva00.3utilities.com/api/${videoName}`}
+                        src={`https://backmundovigilante.3.us-1.fl0.io/${videoName}`}
                         type='video/mp4'
                     />
                     Tu navegador no admite el video.

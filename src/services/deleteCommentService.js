@@ -1,6 +1,6 @@
 const deleteCommentService = async (publicationId, commentId, token) => {
     const res = await fetch(
-        `http://eva00.3utilities.com/api/publications/${publicationId}/comments/${commentId}`,
+        `https://backmundovigilante.3.us-1.fl0.io/publications/${publicationId}/comments/${commentId}`,
         {
             method: 'delete',
             headers: {

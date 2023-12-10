@@ -1,7 +1,7 @@
 const validateCodeService = async (regCode, setActive) => {
     try {
         const res = await fetch(
-            `http://eva00.3utilities.com/api/users/validate/${regCode}`,
+            `https://backmundovigilante.3.us-1.fl0.io/users/validate/${regCode}`,
             {
                 method: 'put',
                 headers: {

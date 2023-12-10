@@ -18,7 +18,7 @@ const usePublications = () => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `http://eva00.3utilities.com/api/publications?${searchParams.toString()}`,
+                    `https://backmundovigilante.3.us-1.fl0.io/publications?${searchParams.toString()}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

@@ -4,7 +4,7 @@ const personalInfoEditService = async (personalInfo, token) => {
     formData.append('personalInfo', personalInfo);
 
     try {
-        const res = await fetch('http://eva00.3utilities.com/api/users/info', {
+        const res = await fetch('https://backmundovigilante.3.us-1.fl0.io/users/info', {
             method: 'PUT',
             headers: {
                 Authorization: token,

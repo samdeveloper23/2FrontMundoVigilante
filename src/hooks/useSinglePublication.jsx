@@ -19,7 +19,7 @@ const useSinglePublication = () => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `http://eva00.3utilities.com/api/publications/${id}`,
+                    `https://backmundovigilante.3.us-1.fl0.io/publications/${id}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

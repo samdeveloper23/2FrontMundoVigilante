@@ -16,7 +16,7 @@ const useUsers = () => {
                 setLoading(true);
 
                 const res = await fetch(
-                    `http://eva00.3utilities.com/api/users?${searchParams.toString()}`,
+                    `https://backmundovigilante.3.us-1.fl0.io/users?${searchParams.toString()}`,
                     {
                         headers: token ? { Authorization: token } : {},
                     }

@@ -4,7 +4,7 @@ const commentCreateService = async (text, id, token) => {
     formData.append('text', text);
 
     const res = await fetch(
-        `http://eva00.3utilities.com/api/publications/${id}/comments`,
+        `https://backmundovigilante.3.us-1.fl0.io/publications/${id}/comments`,
         {
             method: 'post',
             headers: {

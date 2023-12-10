@@ -1,6 +1,6 @@
 const singlePublicationService = async (publicationId) => {
     const res = await fetch(
-        `http://eva00.3utilities.com/api/publications/${publicationId}`
+        `https://backmundovigilante.3.us-1.fl0.io/publications/${publicationId}`
     );
     const body = await res.json();
 

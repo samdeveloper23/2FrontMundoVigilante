@@ -2,7 +2,7 @@ const likePublicationService = async (publicationId, likedByMe, token) => {
     const method = likedByMe ? 'delete' : 'post';
 
     const res = await fetch(
-        `http://eva00.3utilities.com/api/publications/${publicationId}/likes`,
+        `https://backmundovigilante.3.us-1.fl0.io/publications/${publicationId}/likes`,
         {
             method,
             headers: {

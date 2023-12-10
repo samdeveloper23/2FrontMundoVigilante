@@ -2,7 +2,7 @@ const avatarEditService = async (avatar, token) => {
     const formData = new FormData();
     formData.append('avatar', avatar);
 
-    const response = await fetch('http://eva00.3utilities.com/api/users/avatar', {
+    const response = await fetch('https://backmundovigilante.3.us-1.fl0.io/users/avatar', {
         method: 'put',
         headers: {
             Authorization: token,

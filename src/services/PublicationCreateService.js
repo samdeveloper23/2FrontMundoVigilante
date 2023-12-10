@@ -16,7 +16,7 @@ const PublicationCreateService = async (
     formData.append('place', place);
     formData.append('type', type);
 
-    const res = await fetch('http://eva00.3utilities.com/api/publications', {
+    const res = await fetch('https://backmundovigilante.3.us-1.fl0.io/publications', {
         method: 'post',
         headers: {
             Authorization: token,
